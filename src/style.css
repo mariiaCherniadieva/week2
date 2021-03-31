@@ -45,7 +45,7 @@ p {
 .header {
     height: 120px;
     position: relative;
-    margin-bottom: 150px;
+    margin-bottom: 162px;
 }
 
 .logo {
@@ -114,39 +114,30 @@ p {
 }*/
 
 .hello-content {
-    width: 400px;
+    text-align: center;
+    margin-bottom: 233px;
 }
 
+
+
 .hello__title {
-    position: absolute;
     font-size: 72px;
     width: 776px;
     height: 197px;
-    left: 200px;
-    top: 280px;
     font-weight: bold;
     line-height: 1.2;
-    margin-bottom: 18px;
+    margin: 0 auto 18px;
     text-transform: uppercase;
     text-align: center;
 }
 
 .hello__subtitle {
-    position: absolute;
     font-size: 18px;
-    width: 392px;
-    height: 20px;
-    left: 385px;
-    top: 478px;
     margin-bottom: 45px;
     text-align: center;
 }
 
-.hello__btn {
-    position: absolute;
-    top: 545px;
-    left: 480px;
-}
+.hello__btn {}
 
 .button--color--dark {
     background: #ff5500;
@@ -162,10 +153,7 @@ p {
 }
 
 .plans {
-    position: relative;
     margin-bottom: 138px;
-
-    top: 562px;
 }
 
 .plans__item {
@@ -175,7 +163,7 @@ p {
     background: #ffffff;
     border-radius: 5px;
     display: inline-block;
-    margin-right: 24px;
+    margin-right: 28px;
     vertical-align: middle;
 }
 
@@ -184,9 +172,8 @@ p {
 }
 
 .plans__icon {
-    position: absolute;
     min-height: 80px;
-    margin-bottom: 35px;
+    margin-bottom: 10px;
 }
 
 .plans__content {
@@ -195,18 +182,13 @@ p {
 }
 
 .plans__title {
-    position: absolute;
     font-weight: bold;
     font-size: 32px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 
-    top: 138px;
 }
 
-.plan__features {
-    position: absolute;
-    top: 185px;
-}
+.plan__features {}
 
 .plans__feature {
     display: inline-block;
@@ -222,11 +204,9 @@ p {
 }
 
 .plans__descriptions {
-    position: absolute;
     color: #666666;
-    top: 254px;
     width: 306px;
-    height: 66px;
+    margin-bottom: 75px;
 }
 
 .plan__description {
@@ -236,10 +216,7 @@ p {
 }
 
 .plans__button-wrapper {
-    text-align: center;
-    position: absolute;
     text-transform: uppercase;
-    top: 368px;
 }
 
 .plans__button {
@@ -260,23 +237,30 @@ p {
     background: #ff5500;
 }
 
+.news-and-offers {
+    margin-bottom: 145px;
+}
+
 .news-and-offers__header {
-    position: absolute;
-    top: 600px;
     font-weight: 800;
     font-size: 36px;
     text-transform: uppercase;
+    margin-bottom: 50px;
 }
+
+.news-and-offers__list {
+    margin-bottom: 58px;
+}
+
 
 .news-and-offers__item {
     width: 555px;
     display: inline-block;
     vertical-align: top;
-    position: relative;
-    top: 670px;
     border-radius: 4px;
     overflow: hidden;
     margin-right: 20px;
+    position: relative;
 }
 
 .news-and-offers__item:last-child {
@@ -308,24 +292,19 @@ p {
 }
 
 .paginator {
-    position: absolute;
     text-align: center;
-    width: 375px;
-    height: 54px;
 }
 
 .paginator__display,
 .paginator__list {
-    position: relative;
-    top: 680px;
-    left: 455px;
+
     display: inline-block;
     vertical-align: bottom;
-    margin-top: 55px;
 }
 
 .paginator__display {
     margin-right: 26px;
+    margin-bottom: 10px;
 }
 
 .paginator__item {
@@ -334,14 +313,13 @@ p {
 }
 
 .pager__link {
-    position: relative;
-    top: 22px;
     display: block;
     width: 32px;
     height: 32px;
     border-radius: 50%;
     text-decoration: none;
     font-weight: bold;
+    line-height: 32px;
 }
 
 .pager__item--active .pager__link {
@@ -352,10 +330,13 @@ p {
     background: #ff5500;
 }
 
-.about {
-    position: absolute;
-    top: 900px;
+
+
+.article {
+    margin-bottom: 53px;
 }
+
+.about {}
 
 .about:before {
     content: "";
@@ -364,6 +345,8 @@ p {
     height: 502px;
     background: url("../images/cameraman.png") center center/ cover no-repeat;
 }
+
+
 
 .article__description {
     margin-left: 345px;
@@ -423,13 +406,13 @@ hr {
 
 .footer {
     height: 152px;
-    position: relative;
-    top: 1600px;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    ;
 }
 
 .footer__logo {
     position: absolute;
-   
+
 
 }
 
@@ -493,7 +476,7 @@ hr {
 
 .contacts__link {
     font-size: 26px;
-    
+
 }
 
 .wrapper {
