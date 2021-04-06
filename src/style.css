@@ -37,6 +37,11 @@ p {
     box-sizing: border-box;
 }
 
+img{
+    display: block;
+    max-width: 100%;
+}
+
 .main__page-wrapper {
     background: url("../images/hero.png") center top no-repeat,
         url("../images/bottom-pic.png") center bottom no-repeat;
@@ -544,7 +549,7 @@ p {
 .videos-list__pic {
     width: 460px;
     height: 333px;
-    margin-right: 56px;
+    margin-right: 6%;
 
 }
 
@@ -553,14 +558,14 @@ p {
     flex: 1;
 }
 
-.video-list__header {
+.videos-list__header {
     color: black;
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 28.5px;
 }
 
-.video-list__description {
+.videos-list__description {
     color: #303030;
     font-size: 16px;
     margin-bottom: 75px;
@@ -603,6 +608,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
     margin: 0;
 
 }
@@ -612,19 +618,50 @@ p {
     min-width: 250px;
     padding: 13px 0;
     margin-bottom: 70px;
-
-}
-
-.right--item {
-    text-align: right;
-
-}
-
-.left--item {
-    text-align: left;
-}
-
-
-.center--item {
     text-align: center;
+
+
 }
+
+
+.partners-list__link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: grayscale(100%);
+
+}
+
+.partners-list__link:hover {
+    filter: grayscale(0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
