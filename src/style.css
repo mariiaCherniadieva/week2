@@ -97,10 +97,12 @@ img{
 
 .menu__link {
     font-size: 14px;
+    transition:color 1s;
 }
 
 .menu__link:hover {
     color: #ff3d00;
+    
 }
 
 .contacts {
@@ -118,6 +120,87 @@ img{
     text-decoration: underline;
     color: #ff3d00;
 }
+
+.dropdown {
+    position: relative;
+    
+}
+
+.dropdown:hover .dropdown__window {
+    right: 0;
+    opacity: 1;
+}
+
+.dropdown__window {
+    position: absolute;
+    background:#CDD1D2;
+    border-radius: 4px;
+    padding: 10px;
+    width: 160px;
+    top: 100%;
+    margin-top: 8px;
+    opacity: 0;
+    transition: opacity .4s;
+    right: -9999px;
+}
+
+.dropdown__window:before {
+    content: "";
+    display: block;
+    height: 300px;
+    left: 0;
+    right: 0;
+    top: -29px;
+    position: absolute;
+}
+
+.dropdown__list {
+    text-align: center;
+}
+
+.dropdown__item {
+    color: #1E1F20;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .contacts__description {
     color: #fff;
@@ -153,10 +236,12 @@ img{
     color: #fff;
     font-weight: bold;
     text-transform: uppercase;
+    transition: all 1s;
 }
 
 .button--color--dark:hover {
     background: #ff3d00;
+    
 }
 
 .plans {
@@ -241,11 +326,14 @@ img{
     padding: 18px 50px;
     background: #fff;
     font-weight: bold;
+    transition: all 1s;
+    
 }
-
 .button--color--light:hover {
     color: #fff;
-    background: #ff5500;
+    background-color: #ff5500;
+    
+    
 }
 
 .news-and-offers {
@@ -326,14 +414,17 @@ img{
     text-decoration: none;
     font-weight: bold;
     line-height: 32px;
+    
 }
 
 .pager__item--active .pager__link {
     background: #ff5500;
+    transition:all 1s;
 }
 
 .pager__link:hover {
     background: #ff5500;
+    
 }
 
 .article {
@@ -586,6 +677,7 @@ img{
 .pager__link--services {
     color: black;
     font-size: 16px;
+    transition: color 1s;
 }
 
 .pager__link--services:hover {
@@ -631,10 +723,13 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    filter: grayscale(100%);}
+    filter: grayscale(100%);
+     transition: all 1.5s;
+}
 
 .partners-list__link:hover {
     filter: grayscale(0);
+   
 }
 
 
@@ -962,11 +1057,13 @@ img{
     color: #fff;
     font-weight: bold;
     text-transform: uppercase;
+    transition:all 1.5s;
       
 }
 
 .button--color--grey:hover{
     background: #2B2B2B;
+    
 }
 
 .reviews__button{
