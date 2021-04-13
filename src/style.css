@@ -129,6 +129,7 @@ img {
 .dropdown:hover .dropdown__window {
     right: 0;
     opacity: 1;
+    transition: all 2s;
 }
 
 .dropdown__window {
@@ -152,6 +153,7 @@ img {
     right: 0;
     top: -29px;
     position: absolute;
+
 }
 
 .dropdown__list {
@@ -198,7 +200,7 @@ img {
     color: #fff;
     font-weight: bold;
     text-transform: uppercase;
-    transition: all 1s;
+    transition: all 0.5s;
 }
 
 .button--color--dark:hover {
@@ -288,7 +290,7 @@ img {
     padding: 18px 50px;
     background: #fff;
     font-weight: bold;
-    transition: all 1s;
+    transition: all 0.5s;
 
 }
 
@@ -496,17 +498,16 @@ img {
 .social-media__icon:last-child {
     margin-right: 0;
 }
-
 .telegram:hover:before {
     opacity: 1;
 }
 
 .telegram:hover:after {
     opacity: 0;
-}
 
+}
 .telegram:after {
-    content:"";
+    content: "";
     display: block;
     position: absolute;
     top: 50%;
@@ -516,10 +517,10 @@ img {
     height: 36px;
     background: url("../images/sprites/css_sprites.png") -10px -10px;
     transition: .3s;
-    
+
 }
 
-.telegram:before{
+.telegram:before {
     content: '';
     display: block;
     position: absolute;
@@ -1159,7 +1160,7 @@ img {
     color: #fff;
     font-weight: bold;
     text-transform: uppercase;
-    transition: all 1.5s;
+    transition: all 0.5s;
 
 }
 
