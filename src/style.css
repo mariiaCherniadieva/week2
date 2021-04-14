@@ -129,7 +129,7 @@ img {
 .dropdown:hover .dropdown__window {
     right: 0;
     opacity: 1;
-    transition: all 2s;
+    
 }
 
 .dropdown__window {
@@ -141,7 +141,7 @@ img {
     top: 100%;
     margin-top: 8px;
     opacity: 0;
-    transition: opacity .4s;
+    transition: opacity 0.2s;   
     right: -9999px;
 }
 
