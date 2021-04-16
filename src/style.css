@@ -493,11 +493,12 @@ img {
 .social-media__icon {
     width: 36px;
     height: 36px;
-    background-color: #ccc;
+    
     padding: 10px;
     border-radius: 50px;
     position: relative;
     margin-right: 10px;
+    color:#666;
 }
 
 .social-media__icon:last-child {
@@ -520,7 +521,7 @@ img {
     transform: translate(-50%, -50%);
     width: 36px;
     height: 36px;
-    background: url("../images/sprites/css_sprites.png") -10px -10px;
+    background: url("../images/sprites/css_sprites2.png") -10px -10px;
     transition: .3s;
 
 }
@@ -534,7 +535,7 @@ img {
     transform: translate(-50%, -50%);
     width: 36px;
     height: 36px;
-    background: url("../images/sprites/css_sprites2.png") -10px -10px;
+    background: url("../images/sprites/css_sprites.png") -10px -10px;
     opacity: 0;
     transition: .3s;
 }
@@ -556,7 +557,7 @@ img {
     transform: translate(-50%, -50%);
     width: 36px;
     height: 36px;
-    background: url("../images/sprites/css_sprites.png") -66px -10px;
+    background: url("../images/sprites/css_sprites2.png") -66px -10px;
     transition: .3s;
 
 }
@@ -570,7 +571,7 @@ img {
     transform: translate(-50%, -50%);
     width: 36px;
     height: 36px;
-    background: url("../images/sprites/css_sprites2.png") -66px -10px;
+    background: url("../images/sprites/css_sprites.png") -66px -10px;
     opacity: 0;
     transition: .3s;
 }
@@ -592,7 +593,7 @@ img {
     transform: translate(-50%, -50%);
     width: 36px;
     height: 36px;
-    background: url("../images/sprites/css_sprites.png") -122px -10px;
+    background: url("../images/sprites/css_sprites2.png") -122px -10px;
     transition: .3s;
 
 }
@@ -606,7 +607,7 @@ img {
     transform: translate(-50%, -50%);
     width: 36px;
     height: 36px;
-    background: url("../images/sprites/css_sprites2.png") -122px -10px;
+    background: url("../images/sprites/css_sprites.png") -122px -10px;
     opacity: 0;
     transition: .3s;
 }
@@ -628,7 +629,7 @@ img {
     transform: translate(-50%, -50%);
     width: 36px;
     height: 36px;
-    background: url("../images/sprites/css_sprites.png") -178px -10px;
+    background: url("../images/sprites/css_sprites2.png") -178px -10px;
     transition: .3s;
 
 }
@@ -642,7 +643,7 @@ img {
     transform: translate(-50%, -50%);
     width: 36px;
     height: 36px;
-    background: url("../images/sprites/css_sprites2.png") -178px -10px;
+    background: url("../images/sprites/css_sprites.png") -178px -10px;
     opacity: 0;
     transition: .3s;
 }
