@@ -42,6 +42,11 @@ img {
     max-width: 100%;
 }
 
+
+.wrapper{
+    overflow: hidden;
+}
+
 .main__page-wrapper {
     background: url("../images/hero.png") center top no-repeat,
         url("../images/bottom-pic.png") center bottom no-repeat;
